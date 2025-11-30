@@ -32,6 +32,31 @@ OTP di-generate menggunakan **PHP** dan dikirim otomatis melalui **Fonnte API**.
 6. PHP memverifikasi OTP dengan hash di database.
 6. Jika cocok, user dianggap valid dan proses login/registrasi berhasil.
 
----
+## Tutorial Lengkap
+
+Panduan lengkap pembuatan OTP WhatsApp  dapat dilihat di:
+
+- **YouTube Playlist:**  
+  https://www.youtube.com/playlist?list=PL0xxlUJSOUAoGCfkJazP94D1PbB9NQl5-
+  
+- **Website :**  
+  https://www.bisangoding.id
+
+Tutorial mencakup:
+
+- Penjelasan konsep dasar OTP WhatsApp dan alur kerjanya  
+- Cara generate OTP menggunakan PHP dengan metode yang aman  
+- Cara mengirim OTP WhatsApp otomatis menggunakan Fonnte API  
+- Cara menyimpan OTP ke database MySQL dalam bentuk **hashed**  
+- Cara menggunakan **session PHP** untuk menyimpan nomor WhatsApp  
+- Membuat form input OTP dan fitur **countdown timer** dengan JavaScript  
+- Validasi dan verifikasi OTP yang dikirim oleh pengguna  
+- Mencegah spam request dengan timer JavaScript  
+- Cara memastikan OTP hanya bisa digunakan **satu kali (one-time use)**  
+- Pengujian lengkap, debugging, dan best practice keamanan OTP  
+- Integrasi OTP WhatsApp ke sistem login atau registrasi pengguna  
+
+Semua materi dijelaskan langkah demi langkah agar mudah dipahami dan langsung bisa diterapkan.
+
 
 
