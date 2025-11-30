@@ -4,7 +4,6 @@ Repository ini berisi source code lengkap untuk membuat **sistem OTP WhatsApp** 
 
 OTP di-generate menggunakan **PHP** dan dikirim otomatis melalui **Fonnte API**. Kode OTP kemudian disimpan di **database MySQL dalam bentuk hashed**, sehingga lebih aman dan tidak bisa dibaca langsung. Untuk menjaga alur verifikasi tetap konsisten, nomor WhatsApp disimpan menggunakan **session PHP**. Pada sisi frontend, **JavaScript** digunakan untuk membuat **countdown timer** agar pengiriman OTP tidak dapat dilakukan berulang-ulang (anti spam). Seluruh alur — kirim OTP, verifikasi, pengecekan database, hingga login berhasil — dijelaskan dengan jelas dan mudah dikembangkan.
 
----
 
 ## **🔥 Fitur Utama**
 - Kirim OTP WhatsApp otomatis menggunakan **Fonnte API**
@@ -16,7 +15,6 @@ OTP di-generate menggunakan **PHP** dan dikirim otomatis melalui **Fonnte API**.
 - Struktur kode rapi dan mudah dikembangkan
 - Cocok untuk login, registrasi, dan autentikasi WhatsApp
 
----
 
 ## **🛠️ Teknologi yang Digunakan**
 - **PHP** – backend & generator OTP  
@@ -24,8 +22,6 @@ OTP di-generate menggunakan **PHP** dan dikirim otomatis melalui **Fonnte API**.
 - **MySQL** – penyimpanan OTP ter-hash  
 - **Fonnte API** – pengiriman OTP WhatsApp  
 - **HTML/CSS** – UI dan form input  
-
----
 
 ## **🚀 Cara Kerja Sistem**
 1. User memasukkan nomor WhatsApp pada form.
